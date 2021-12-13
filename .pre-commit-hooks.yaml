@@ -1,0 +1,9 @@
+-   id: spectral
+    name: @stoplight/spectral-cli
+    entry: spectral
+    language: node
+    'files': \.(yml|yaml)$
+    args: []
+    require_serial: false
+    additional_dependencies: ["@stoplight/spectral-cli@0.0.0"]
+    minimum_pre_commit_version: '0'
