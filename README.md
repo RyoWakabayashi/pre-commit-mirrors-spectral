@@ -19,7 +19,7 @@ Then add this to your `.pre-commit-config.yaml`:
 
 ```yml
 - repo: https://github.com/RyoWakabayashi/pre-commit-mirrors-spectral
-  rev: "v6.2.0" # Use the sha / tag you want to point at
+  rev: "v6.2.1" # Use the sha / tag you want to point at
   hooks:
     - id: spectral
 ```
